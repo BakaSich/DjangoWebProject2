@@ -1,0 +1,22 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+
+
+<div class="row">
+    <div class="col-md-4">
+        
+        <p><a href="http://www.yandex.ru"><img alt="Yandex" src="{% static 'app/content/logo_ya.png' %}" height="100" width="100"/></a></p>
+    </div>
+    <div class="col-md-4">
+
+        <p><a href="https://openedu.ru"><img alt="Open Study" src="{% static 'app/content/logo_oo.png' %}" height="100" width="110"/></a></p>
+    </div>
+    <div class="col-md-4">
+
+        <p><a href="http://www.youtube.com"><img alt="YouTube" src="{% static 'app/content/logo_yt.png' %}" height="100" width="120"/></a></p>
+    </div>
+</div>
+
+{% endblock %}
